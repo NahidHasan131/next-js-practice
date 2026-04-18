@@ -8,7 +8,6 @@ export default function layout({children}) {
             <ul className="flex gap-5 border-gray-600 border-b mb-8">
                 <li><Link href= '/'>home</Link></li>
                 <li><Link href= '/about'>About</Link></li>
-                <li><Link href= '/about/mission'>Mission</Link></li>
             </ul>
         </nav>
         {children}
